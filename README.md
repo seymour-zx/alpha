@@ -1,3 +1,4 @@
-# t1
-for testing only
-## https://zhengxie.info
+# Quick Link: https://zhengxie.info
+## Freshman
+
+# 技术交流：seymour.zx@foxmail.com 
