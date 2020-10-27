@@ -23,7 +23,7 @@ html {
   overflow-x: hidden;
 }
 body {
-  background-image: blue;
+  background-image: url("https://zhengxie.info/common/image/background.jpg");
   width: 100vw;/*等于屏幕的高度*/
   height: 100vh;/*等于屏幕的高度*/
   overflow-x: hidden;
@@ -41,7 +41,7 @@ article {
   left: -100vw;
 }
 #homemater{  
-  background: #042331;
+  background: none;
   left: 0vw;
 }
 #homeleftbar header{
