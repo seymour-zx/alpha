@@ -1,90 +1,64 @@
-﻿* {/*默认css样式*/
-  padding: 0px;
-  margin: 0px;
-  border: 0px;/**/
+﻿* {
+  margin: 0 auto;
+  padding: 0;
+  background: black;
+  overflow: auto;  
   position: relative;
   background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: black;
-  background-clip: padding-box;/*背景图像在线框范围内*/
-  background-origin: padding-box;/*背景图像的相对位置，线框内侧*/   
-  overflow: auto;/*hidden超出隐藏，改scroll则加滚轮*/ 
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18px;/*字体设置大小，单位rem,即是这里的倍数*/
-  list-style: none;
-  text-decoration: none;
-  text-align: center;
-  transition: all .5s;
-}
-html {
-  width: 100vw;
-  overflow-x: hidden;
+  align-items:center;
+  background-clip: padding-box;
+  font-size: 16px;
 }
 body {
-  background-image: url("https://zhengxie.info/common/image/background.jpg");
-  width: 100vw;/*等于屏幕的高度*/
-  height: 100vh;/*等于屏幕的高度*/
-  overflow-x: hidden;
-
-}
-article {
-  position: absolute;
   width: 100vw;
   height: 100vh;
-  display: block;
-  top: 0vh;
+  overflow-x: hidden;
 }
-#homeleftbar{
-  background:#063146;
-  left: -100vw;
+#inn {
+  width: min(100vmin,61.8vh);
+  height: 100vh;
+  background: rgb(130,36,30);
 }
-#homemater{  
+.header {
   background: none;
-  left: 0vw;
+  width: 100%;
+  height: 38.2%;
+  display: flex;
 }
-#homeleftbar header{
-  height: 10vh;
-  background: #042331;
-}
-#homemater header{
-  height: 10vh;
+.body {
   background: none;
+  width: 100%;
+  height: 61.8%;
+  display: flex;
 }
-label {
-  cursor: pointer;
-  display: block;
-  background: white;  
-  width: 10vmin;
-  height: 10vmin;  
-}
-#checkleftbar:checked ~ #homeleftbar{
-  left: 0vw;
-}
-#checkleftbar:checked ~ #homemater{
-  left: 100vw;
+#plaque {
+  display: flex;
+  background: rgb(37,86,122);
+  width: 61.8%;
+  height: 32.8%;
+  border: 3.18vmin ridge rgb(243,214,55);
+/*  
+#622a1d
+border-style: outset;rgb(243,214,55)*/
 }
 h1 {
-  color: aliceblue;
+  font-size: 2.18rem;
   background: none;
-  background-color: none;
-  border-bottom: 1px solid black;
-  font-size: 2rem;
+  color: rgb(243,214,55);
+  text-shadow: 1px 1px 2px black, -1px -1px 2px gray;
 }
-a {
-  color: aliceblue;
+h1:hover {
+  text-shadow: -1px -1px 2px gray, 1px 1px 2px black;
+}
+#door {
+  display: flex;
+  background: black;
+  border: 1px solid black;
+  width: 38.2%;
+  height: 10%;
+}
+h2 {
+  font-size: 1.5rem;
   background: none;
-  background-color: none;
-  font-size: 2rem;
+  color: rgb(243,214,55);
 }
-div {
-  background: none;
-  background-color: none;
-}
-section {
-  background: none;
-  background-color: none;
-}
-
-
