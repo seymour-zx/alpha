@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Quick Link: https://zhengxie.info
-## Freshman
+ï»¿# Quick Link: https://zhengxie.info/alpha/
+## for testing only
 
-# ¼¼Êõ½»Á÷£ºseymour.zx@foxmail.com 
-=======
+# æŠ€æœ¯äº¤æµï¼šseymour.zx@foxmail.com
 
+# è¿”å›žé¦–é¡µï¼š../homepage.html
