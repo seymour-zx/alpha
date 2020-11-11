@@ -1,51 +1,47 @@
 html {
   font-size: 16px;
+  background-color: rgba(3,2,4,1);
 }
 body {
   margin: 0 auto;
+  padding: 0;
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: rgba(130,36,30,1);
 }
-.basement {
+div.building {
+  background-image: url(./common/image/background.jpg);
+  background-color: rgba(244,241,237,1);
   width: 100%;
-  min-height: 100%;
-  background-image: url(https://api.ixiaowai.cn/api/api.php);
-  /*动态托管，可换为自己的图片链接 url(./common/api/image.php) */
-  background-color: rgba(3,2,4,1);
+  min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 }
-.basement .stair {
+div.building div.entrance {
   width: 100%;
-  background: rgba(130,36,30,0.3);
-}
-.basement .room {
-  width: 100%;
-  background: rgba(243,215,55,0.3);
-}
-.stair .entrance {
-  text-align: center;
-  width: 100%;
+  text-align: center; 
+  background: rgba(130,36,30,1);
   height: 10vh;
   line-height: 10vh;
-  background: rgba(130,36,30);
 }
-.stair .entrance a{    
-    color: rgba(243,215,55);
+div.entrance a{    
+    color: rgba(243,215,55,1);
     text-decoration: none;
     font-size: 2rem;
     letter-spacing: 1px;
 }
-.stair .f1 {
-  background-color: rgba(3,2,4,1);
-  color:  rgba(244,241,237,1);
-  text-align: center;
-  height: 5vh;
-  line-height: 5vh;
+div.building div.basement {
+  width: 100%;
 }
-table {
+div.basement div.stair {
+  width: 100%;
+}
+
+
+
+div.stair table {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center;
@@ -53,10 +49,10 @@ table {
   background: rgb(244,241,237);
   border-bottom: 1px solid rgba(130,36,30);
 }
-table tr td{
+div.stair table tr td{
   border-bottom: 1px solid rgba(130,36,30);
 }
-table tr td a {
+div.stair table tr td a {
   text-decoration: none;
   color: rgb(3,2,4);
 }
@@ -94,19 +90,52 @@ label {
 #checktable6:checked ~ .checktable6 {
   display: none;
 }
-.treasure {
+
+
+
+
+
+
+
+div.basement div.room {
   width: 100%;
-  height: 100vh;
+}
+div.treasure div {
+  width: 100%;
+}
+div.treasure div.view {
+  min-height: 100vh;
+}
+div.treasure div.version {
+  background-color: rgba(3,2,4,1);
+  color:  rgba(244,241,237,1);
+  text-align: center;
+  height: 5vh;
+  line-height: 5vh;
 }
 @media screen and (min-width: 768px){
-  .basement {
+  div.building div.basement {
     display: flex;
   }
-  .basement .stair {
+  div.basement div.stair {
     width: 38.2%;
   }
-  .basement .room {
+  div.basement div.room {
     width: 61.8%;
     float: right;
   } 
 }
+
+
+/*
+
+    <div class="stair">
+ 
+      <div class="f2">
+        
+      </div>
+
+
+  </div>
+
+*/
