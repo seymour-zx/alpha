@@ -92,7 +92,7 @@ body {
   } /* 3rd floor */
     .f3 .r1 {
       background-color: none;
-    }/*站内快链*/
+    }/*常逛的个人博客*/
       #f3r1table:checked ~ .f3r1table {
         display: none;
       }/*控制开关*/  
@@ -124,10 +124,10 @@ body {
       }/**/      
   .basement .f4 {
     background-color: none;
-  } /* 2nd floor */
+  } /* 4st floor */
     .f4 .r1 {
       background-color: none;
-    }/*站内快链*/
+    }/*网址收藏*/
       #f4r1table:checked ~ .f4r1table {
         display: none;
       }/*控制开关*/  
@@ -193,10 +193,10 @@ body {
       }/**/
   .basement .f6 {
     background-color: none;
-  } /* 5st floor */
+  } /* 6st floor */
     .f6 .r1 {
       background-color: none;
-    }/*博文收藏*/
+    }/*博文收藏（英文）*/
       #f6r1table:checked ~ .f6r1table {
         display: none;
       }/*控制开关*/  
@@ -233,7 +233,7 @@ body {
     text-align: center;
     height: 5vh;
     line-height: 5vh;
-  }
+  } /*技术支持*/ 
   .basement .f997 a {
     color:  rgba(244,241,237,1);
     text-decoration: none;
@@ -244,7 +244,7 @@ body {
     text-align: center;
     height: 5vh;
     line-height: 5vh;
-  }
+  } /*知乎建站日志*/ 
   .basement .f998 a {
     color:  rgba(244,241,237,1);
     text-decoration: none;
@@ -256,8 +256,8 @@ body {
     text-align: center;
     height: 5vh;
     line-height: 5vh;
-  }
-@media screen and (min-width: 720px){
+  } /*版本说明*/ 
+@media screen and (min-width: 960px){
   .entrance .r1 {
     width: 38.2%;
   }

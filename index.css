@@ -257,7 +257,7 @@ body {
     height: 5vh;
     line-height: 5vh;
   }
-@media screen and (min-width: 720px){
+@media screen and (min-width: 960px){
   .entrance .r1 {
     width: 38.2%;
   }
